@@ -1,10 +1,11 @@
 import React from 'react'
+import MainScreen from '../../components/MainScreen'
 
 const MyNotes = () => {
   return (
-    <div>
+    <MainScreen title ="Welcome back to Kishan gaur..">
       My note
-    </div>
+    </MainScreen>
   )
 }
 
