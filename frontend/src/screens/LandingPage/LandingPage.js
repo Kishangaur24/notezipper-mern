@@ -8,7 +8,7 @@ const LandingPage = () => {
       <Row>
         <div className='intro-text'>
             <div>
-                <h1 className='title'>Welcome to NoteZipper</h1>
+                <h1 className='title'>Welcome to Note Zipper</h1>
                 <p className='sub-title'>One safe place for all your Notes.</p>
             </div>
             <div className='buttonContainer'>
