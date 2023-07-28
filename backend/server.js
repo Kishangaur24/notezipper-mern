@@ -1,9 +1,13 @@
 const express = require("express")
+const cors = require("cors")
 const app = express()
 const notes = require("./data/const")
 const dotenv = require("dotenv")
+const connectDB = require("./config/db")
 
+app.use(cors())
 dotenv.config()
+connectDB()
 app.get("/",(req,res)=>{
     res.send("Api is Running")
 })
